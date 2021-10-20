@@ -60,7 +60,7 @@ nav ul li a {
 }
 
 main {
-    height: 1000px;
+    height: 2300px;
     width: 100%;
     float: left;
     margin-top: 220px;
@@ -143,21 +143,54 @@ aside hr {
 }
 
 .left {
-    background-color: red;
+    width: 30%;
 }
 
 .right {
-    background-color: black;
+    width: 50%;
 }
 
 .right input {
     width: 100%;
+    background-color: #aad6c1;
+    padding: 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.right textarea {
+    width: 100%;
+    background-color: #aad6c1;
+    padding: 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.right button {
+    color: white;
+    background-color: #aad6c1;
+    padding: 15px 40px;
+    font-size: 20px;
+    float: right;
+    border: none;
 }
 
 .formbox {
     height: 400px;
     width: 1000px;
     margin: 0px auto;
-    display: grid;
-    grid-template-columns: 30% 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    float: left;
+    background-color: #aad6c1;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
